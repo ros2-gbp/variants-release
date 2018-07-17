@@ -1,0 +1,8 @@
+ros-bouncy-desktop (0.5.0-0bionic) bionic; urgency=high
+
+  * define ROS 2 Bouncy variants (#1 <https://github.com/ros2/variants/issues/1>)
+  * Contributors: Mikael Arguedas
+
+ -- Mikael Arguedas <mikael@osrfoundation.org>  Tue, 17 Jul 2018 07:00:00 -0000
+
+
