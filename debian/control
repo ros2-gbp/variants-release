@@ -1,0 +1,12 @@
+Source: ros-bouncy-desktop
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-bouncy-ament-cmake, ros-bouncy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-bouncy-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-bouncy-angles, ros-bouncy-composition, ros-bouncy-demo-nodes-cpp, ros-bouncy-demo-nodes-cpp-native, ros-bouncy-demo-nodes-py, ros-bouncy-depthimage-to-laserscan, ros-bouncy-dummy-map-server, ros-bouncy-dummy-robot-bringup, ros-bouncy-dummy-sensors, ros-bouncy-examples-rclcpp-minimal-client, ros-bouncy-examples-rclcpp-minimal-composition, ros-bouncy-examples-rclcpp-minimal-publisher, ros-bouncy-examples-rclcpp-minimal-service, ros-bouncy-examples-rclcpp-minimal-subscriber, ros-bouncy-examples-rclcpp-minimal-timer, ros-bouncy-examples-rclpy-executors, ros-bouncy-examples-rclpy-minimal-client, ros-bouncy-examples-rclpy-minimal-publisher, ros-bouncy-examples-rclpy-minimal-service, ros-bouncy-examples-rclpy-minimal-subscriber, ros-bouncy-image-tools, ros-bouncy-intra-process-demo, ros-bouncy-joy, ros-bouncy-lifecycle, ros-bouncy-logging-demo, ros-bouncy-pcl-conversions, ros-bouncy-pendulum-control, ros-bouncy-ros-base, ros-bouncy-rviz-default-plugins, ros-bouncy-rviz2, ros-bouncy-sros2, ros-bouncy-teleop-twist-joy, ros-bouncy-teleop-twist-keyboard, ros-bouncy-tlsf, ros-bouncy-tlsf-cpp, ros-bouncy-topic-monitor, ros-bouncy-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
