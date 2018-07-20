@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
   <name>ros_core</name>
-  <version>0.5.1</version>
+  <version>0.4.0</version>
   <description>A package to aggregate the packages required to use publish / subscribe, services, generate messages and other core ROS concepts.</description>
   <maintainer email="mikael@osrfoundation.org">Mikael Arguedas</maintainer>
   <license>Apache License 2.0</license>
@@ -48,11 +48,8 @@
   <exec_depend>common_interfaces</exec_depend>
 
   <!-- ros2cli repo -->
-  <exec_depend>ros2launch</exec_depend>
-  <exec_depend>ros2lifecycle</exec_depend>
   <exec_depend>ros2msg</exec_depend>
   <exec_depend>ros2node</exec_depend>
-  <exec_depend>ros2param</exec_depend>
   <exec_depend>ros2pkg</exec_depend>
   <exec_depend>ros2run</exec_depend>
   <exec_depend>ros2service</exec_depend>
