@@ -1,0 +1,9 @@
+ros-ardent-ros-base (0.4.0-1xenial) xenial; urgency=high
+
+  * none languages for metapackages (#4 <https://github.com/ros2/variants/issues/4>)
+  * define ROS 2 Bouncy variants (#1 <https://github.com/ros2/variants/issues/1>)
+  * Contributors: Mikael Arguedas
+
+ -- Mikael Arguedas <mikael@osrfoundation.org>  Fri, 20 Jul 2018 07:00:00 -0000
+
+
