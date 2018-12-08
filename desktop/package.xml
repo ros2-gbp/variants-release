@@ -2,15 +2,16 @@
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
   <name>desktop</name>
-  <version>0.4.0</version>
+  <version>0.6.0</version>
   <description>A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.</description>
-  <maintainer email="mikael@osrfoundation.org">Mikael Arguedas</maintainer>
+  <maintainer email="steven@openrobotics.org">Steven! Ragnarök</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <exec_depend>ros_base</exec_depend>
 
+  <exec_depend>angles</exec_depend>
   <exec_depend>depthimage_to_laserscan</exec_depend>
   <exec_depend>joy</exec_depend>
   <exec_depend>pcl_conversions</exec_depend>
