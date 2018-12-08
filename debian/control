@@ -1,0 +1,12 @@
+Source: ros-crystal-desktop
+Section: misc
+Priority: extra
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-crystal-ament-cmake, ros-crystal-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-crystal-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-crystal-angles, ros-crystal-composition, ros-crystal-demo-nodes-cpp, ros-crystal-demo-nodes-cpp-native, ros-crystal-demo-nodes-py, ros-crystal-depthimage-to-laserscan, ros-crystal-dummy-map-server, ros-crystal-dummy-robot-bringup, ros-crystal-dummy-sensors, ros-crystal-examples-rclcpp-minimal-client, ros-crystal-examples-rclcpp-minimal-composition, ros-crystal-examples-rclcpp-minimal-publisher, ros-crystal-examples-rclcpp-minimal-service, ros-crystal-examples-rclcpp-minimal-subscriber, ros-crystal-examples-rclcpp-minimal-timer, ros-crystal-examples-rclpy-executors, ros-crystal-examples-rclpy-minimal-client, ros-crystal-examples-rclpy-minimal-publisher, ros-crystal-examples-rclpy-minimal-service, ros-crystal-examples-rclpy-minimal-subscriber, ros-crystal-image-tools, ros-crystal-intra-process-demo, ros-crystal-joy, ros-crystal-lifecycle, ros-crystal-logging-demo, ros-crystal-pcl-conversions, ros-crystal-pendulum-control, ros-crystal-ros-base, ros-crystal-rviz-default-plugins, ros-crystal-rviz2, ros-crystal-sros2, ros-crystal-teleop-twist-joy, ros-crystal-teleop-twist-keyboard, ros-crystal-tlsf, ros-crystal-tlsf-cpp, ros-crystal-topic-monitor, ros-crystal-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
