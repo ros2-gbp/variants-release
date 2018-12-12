@@ -1,0 +1,12 @@
+Source: ros-crystal-ros-base
+Section: misc
+Priority: extra
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-crystal-ament-cmake, ros-crystal-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-crystal-ros-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-crystal-kdl-parser, ros-crystal-robot-state-publisher, ros-crystal-ros-core, ros-crystal-tf2, ros-crystal-tf2-eigen, ros-crystal-tf2-geometry-msgs, ros-crystal-tf2-ros, ros-crystal-urdf, ros-crystal-ros-workspace
+Description: A package which extends 'ros_core' and includes other basic functionalities like tf2 and urdf.
