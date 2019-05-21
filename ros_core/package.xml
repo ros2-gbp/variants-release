@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
   <name>ros_core</name>
-  <version>0.6.1</version>
+  <version>0.7.0</version>
   <description>A package to aggregate the packages required to use publish / subscribe, services, generate messages and other core ROS concepts.</description>
   <maintainer email="steven@openrobotics.org">Steven! Ragnarök</maintainer>
   <license>Apache License 2.0</license>
@@ -59,6 +59,7 @@
   <exec_depend>ros2service</exec_depend>
   <exec_depend>ros2srv</exec_depend>
   <exec_depend>ros2topic</exec_depend>
+  <exec_depend>sros2</exec_depend>
 
   <!-- class_loader repo -->
   <exec_depend>class_loader</exec_depend>
