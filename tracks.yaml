@@ -1,4 +1,4 @@
-release_repo_url: git@github.com:ros2-gbp/variants-release.git
+release_repo_url: git@github.com:ros2-gbp/variants-release
 tracks:
   ardent:
     actions:
