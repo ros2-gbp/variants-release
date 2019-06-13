@@ -1,3 +1,29 @@
+## variants (dashing) - 0.7.2-1
+
+The packages in the `variants` repository were released into the `dashing` distro by running `/usr/bin/bloom-release --track dashing --rosdistro dashing variants` on `Thu, 13 Jun 2019 18:51:07 -0000`
+
+These packages were released:
+- `desktop`
+- `ros_base`
+- `ros_core`
+
+Version of package(s) in repository `variants`:
+
+- upstream repository: https://github.com/ros2/variants.git
+- release repository: https://github.com/ros2-gbp/variants-release.git
+- rosdistro version: `0.7.1-1`
+- old version: `0.7.1-1`
+- new version: `0.7.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## variants (dashing) - 0.7.1-1
 
 The packages in the `variants` repository were released into the `dashing` distro by running `/usr/bin/bloom-release -r dashing variants --override-release-repository-push-url git@github.com:ros2-gbp/variants-release` on `Sat, 08 Jun 2019 18:56:23 -0000`
