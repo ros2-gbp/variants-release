@@ -1,0 +1,34 @@
+ros-dashing-ros-base (0.7.3-1bionic) bionic; urgency=high
+
+
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Tue, 10 Dec 2019 06:00:00 -0000
+
+ros-dashing-ros-base (0.6.1-1bionic) bionic; urgency=high
+
+
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Wed, 12 Dec 2018 06:00:00 -0000
+
+ros-dashing-ros-base (0.6.0-1bionic) bionic; urgency=high
+
+  * Updated maintainer (#8 <https://github.com/ros2/variants/issues/8>)
+  * Updated to use CMake language NONE for metapackages (#4 <https://github.com/ros2/variants/issues/4>)
+  * Contributors: Mikael Arguedas, Steven! Ragnarök
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Fri, 07 Dec 2018 06:00:00 -0000
+
+ros-dashing-ros-base (0.5.1-1bionic) bionic; urgency=high
+
+
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Wed, 18 Jul 2018 05:00:00 -0000
+
+ros-dashing-ros-base (0.5.0-1bionic) bionic; urgency=high
+
+  * define ROS 2 Bouncy variants (#1 <https://github.com/ros2/variants/issues/1>)
+  * Contributors: Mikael Arguedas
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Tue, 17 Jul 2018 05:00:00 -0000
+
+
