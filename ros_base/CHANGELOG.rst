@@ -2,21 +2,8 @@
 Changelog for package ros_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.8.3 (2019-11-20)
+0.7.3 (2019-12-10)
 ------------------
-
-0.8.2 (2019-11-13)
-------------------
-* Replaced tf2* by geometry2. (`#19 <https://github.com/ros2/variants/issues/19>`_)
-* Contributors: Mikael Arguedas
-
-0.8.1 (2019-10-14)
-------------------
-
-0.8.0 (2019-10-14)
-------------------
-* Added tf2_kdl to the ros_base variant. (`#16 <https://github.com/ros2/variants/issues/16>`_)
-* Contributors: Chris Lalancette
 
 0.6.1 (2018-12-12)
 ------------------

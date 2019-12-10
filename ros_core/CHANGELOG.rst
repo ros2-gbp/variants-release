@@ -2,25 +2,8 @@
 Changelog for package ros_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.8.3 (2019-11-20)
+0.7.3 (2019-12-10)
 ------------------
-* Add ros2doctor to ros_core variant (`#21 <https://github.com/ros2/variants/issues/21>`_)
-* Contributors: Shane Loretz
-
-0.8.2 (2019-11-13)
-------------------
-* Added ros2interface to ros_core variant. (`#20 <https://github.com/ros2/variants/issues/20>`_)
-* Contributors: Shane Loretz
-
-0.8.1 (2019-10-14)
-------------------
-
-0.8.0 (2019-10-14)
-------------------
-* Added ros2component to ros_core. (`#13 <https://github.com/ros2/variants/issues/13>`_)
-* Added sros2_cmake to ros_core. (`#14 <https://github.com/ros2/variants/issues/14>`_)
-* Added missing dependency for ros2actions package for ros2cli. (`#12 <https://github.com/ros2/variants/issues/12>`_)
-* Contributors: Mikael Arguedas, Scott Lessans
 
 0.6.1 (2018-12-12)
 ------------------

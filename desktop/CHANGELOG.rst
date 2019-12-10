@@ -2,19 +2,11 @@
 Changelog for package desktop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.8.3 (2019-11-20)
+0.7.3 (2019-12-10)
 ------------------
-
-0.8.2 (2019-11-13)
-------------------
-
-0.8.1 (2019-10-14)
-------------------
-Updated packages in demos repository.
-* Contributors: Steven! Ragnarök
-
-0.8.0 (2019-10-14)
-------------------
+* add rqt_common_plugins to desktop (`#18 <https://github.com/ros2/variants/issues/18>`_) (`#22 <https://github.com/ros2/variants/issues/22>`_)
+  Signed-off-by: Mikael Arguedas <mikael.arguedas@gmail.com>
+* Contributors: Mikael Arguedas
 
 0.6.1 (2018-12-12)
 ------------------
