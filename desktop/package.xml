@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
   <name>desktop</name>
-  <version>0.7.3</version>
+  <version>0.8.4</version>
   <description>A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.</description>
   <maintainer email="steven@openrobotics.org">Steven! Ragnarök</maintainer>
   <license>Apache License 2.0</license>
@@ -21,7 +21,9 @@
   <exec_depend>teleop_twist_keyboard</exec_depend>
 
   <!-- demos repo -->
-  <exec_depend>action_tutorials</exec_depend>
+  <exec_depend>action_tutorials_cpp</exec_depend>
+  <exec_depend>action_tutorials_interfaces</exec_depend>
+  <exec_depend>action_tutorials_py</exec_depend>
   <exec_depend>composition</exec_depend>
   <exec_depend>demo_nodes_cpp</exec_depend>
   <exec_depend>demo_nodes_cpp_native</exec_depend>
