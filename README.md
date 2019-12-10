@@ -1,3 +1,29 @@
+## variants (eloquent) - 0.8.4-1
+
+The packages in the `variants` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release -r eloquent variants` on `Tue, 10 Dec 2019 18:33:27 -0000`
+
+These packages were released:
+- `desktop`
+- `ros_base`
+- `ros_core`
+
+Version of package(s) in repository `variants`:
+
+- upstream repository: https://github.com/ros2/variants.git
+- release repository: https://github.com/ros2-gbp/variants-release.git
+- rosdistro version: `0.8.3-1`
+- old version: `0.8.3-1`
+- new version: `0.8.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.42`
+
+
 ## variants (dashing) - 0.7.3-1
 
 The packages in the `variants` repository were released into the `dashing` distro by running `/usr/bin/bloom-release -r dashing variants` on `Tue, 10 Dec 2019 18:25:41 -0000`
