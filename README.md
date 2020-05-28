@@ -1,3 +1,29 @@
+## variants (foxy) - 0.9.1-1
+
+The packages in the `variants` repository were released into the `foxy` distro by running `/usr/bin/bloom-release -r foxy variants` on `Thu, 28 May 2020 19:26:53 -0000`
+
+These packages were released:
+- `desktop`
+- `ros_base`
+- `ros_core`
+
+Version of package(s) in repository `variants`:
+
+- upstream repository: https://github.com/ros2/variants.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.9.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## variants (eloquent) - 0.8.4-1
 
 The packages in the `variants` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release -r eloquent variants` on `Tue, 10 Dec 2019 18:33:27 -0000`
