@@ -1,0 +1,12 @@
+Source: ros-rolling-desktop
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-action-tutorials-cpp, ros-rolling-action-tutorials-interfaces, ros-rolling-action-tutorials-py, ros-rolling-angles, ros-rolling-composition, ros-rolling-demo-nodes-cpp, ros-rolling-demo-nodes-cpp-native, ros-rolling-demo-nodes-py, ros-rolling-depthimage-to-laserscan, ros-rolling-dummy-map-server, ros-rolling-dummy-robot-bringup, ros-rolling-dummy-sensors, ros-rolling-examples-rclcpp-minimal-action-client, ros-rolling-examples-rclcpp-minimal-action-server, ros-rolling-examples-rclcpp-minimal-client, ros-rolling-examples-rclcpp-minimal-composition, ros-rolling-examples-rclcpp-minimal-publisher, ros-rolling-examples-rclcpp-minimal-service, ros-rolling-examples-rclcpp-minimal-subscriber, ros-rolling-examples-rclcpp-minimal-timer, ros-rolling-examples-rclcpp-multithreaded-executor, ros-rolling-examples-rclpy-executors, ros-rolling-examples-rclpy-minimal-action-client, ros-rolling-examples-rclpy-minimal-action-server, ros-rolling-examples-rclpy-minimal-client, ros-rolling-examples-rclpy-minimal-publisher, ros-rolling-examples-rclpy-minimal-service, ros-rolling-examples-rclpy-minimal-subscriber, ros-rolling-image-tools, ros-rolling-intra-process-demo, ros-rolling-joy, ros-rolling-lifecycle, ros-rolling-logging-demo, ros-rolling-pcl-conversions, ros-rolling-pendulum-control, ros-rolling-pendulum-msgs, ros-rolling-quality-of-service-demo-cpp, ros-rolling-quality-of-service-demo-py, ros-rolling-ros-base, ros-rolling-rqt-common-plugins, ros-rolling-rviz-default-plugins, ros-rolling-rviz2, ros-rolling-teleop-twist-joy, ros-rolling-teleop-twist-keyboard, ros-rolling-tlsf, ros-rolling-tlsf-cpp, ros-rolling-topic-monitor, ros-rolling-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.

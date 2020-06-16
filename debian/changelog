@@ -1,0 +1,74 @@
+ros-rolling-desktop (0.9.1-2focal) focal; urgency=high
+
+
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Thu, 28 May 2020 04:00:00 -0000
+
+ros-rolling-desktop (0.9.0-2focal) focal; urgency=high
+
+  * Add multithreaded executor example to desktop (#25 <https://github.com/ros2/variants/issues/25>)
+  * Contributors: Mikael Arguedas
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Mon, 11 May 2020 04:00:00 -0000
+
+ros-rolling-desktop (0.8.4-2focal) focal; urgency=high
+
+  * add rqt_common_plugins to desktop (#18 <https://github.com/ros2/variants/issues/18>)
+  * Contributors: Mikael Arguedas
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Tue, 10 Dec 2019 05:00:00 -0000
+
+ros-rolling-desktop (0.8.3-2focal) focal; urgency=high
+
+
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Wed, 20 Nov 2019 05:00:00 -0000
+
+ros-rolling-desktop (0.8.2-2focal) focal; urgency=high
+
+
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Wed, 13 Nov 2019 05:00:00 -0000
+
+ros-rolling-desktop (0.8.1-2focal) focal; urgency=high
+
+  Updated packages in demos repository.
+  * Contributors: Steven! Ragnarök
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Mon, 14 Oct 2019 04:00:00 -0000
+
+ros-rolling-desktop (0.8.0-2focal) focal; urgency=high
+
+
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Mon, 14 Oct 2019 04:00:00 -0000
+
+ros-rolling-desktop (0.6.1-2focal) focal; urgency=high
+
+  * Add C++ action client and server examples (#9 <https://github.com/ros2/variants/issues/9>)
+  * Contributors: Shane Loretz
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Wed, 12 Dec 2018 05:00:00 -0000
+
+ros-rolling-desktop (0.6.0-2focal) focal; urgency=high
+
+  * Updated maintainer (#8 <https://github.com/ros2/variants/issues/8>)
+  * Updated to use CMake language NONE for metapackages (#4 <https://github.com/ros2/variants/issues/4>)
+  * Contributors: Mikael Arguedas, Steven! Ragnarök
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Fri, 07 Dec 2018 05:00:00 -0000
+
+ros-rolling-desktop (0.5.1-2focal) focal; urgency=high
+
+
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Wed, 18 Jul 2018 04:00:00 -0000
+
+ros-rolling-desktop (0.5.0-2focal) focal; urgency=high
+
+  * define ROS 2 Bouncy variants (#1 <https://github.com/ros2/variants/issues/1>)
+  * Contributors: Mikael Arguedas
+
+ -- Steven! Ragnarök <steven@openrobotics.org>  Tue, 17 Jul 2018 04:00:00 -0000
+
+
