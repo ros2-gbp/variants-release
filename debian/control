@@ -1,0 +1,12 @@
+Source: ros-dashing-desktop
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-dashing-ament-cmake, ros-dashing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-dashing-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-dashing-action-tutorials, ros-dashing-angles, ros-dashing-composition, ros-dashing-demo-nodes-cpp, ros-dashing-demo-nodes-cpp-native, ros-dashing-demo-nodes-py, ros-dashing-depthimage-to-laserscan, ros-dashing-dummy-map-server, ros-dashing-dummy-robot-bringup, ros-dashing-dummy-sensors, ros-dashing-examples-rclcpp-minimal-action-client, ros-dashing-examples-rclcpp-minimal-action-server, ros-dashing-examples-rclcpp-minimal-client, ros-dashing-examples-rclcpp-minimal-composition, ros-dashing-examples-rclcpp-minimal-publisher, ros-dashing-examples-rclcpp-minimal-service, ros-dashing-examples-rclcpp-minimal-subscriber, ros-dashing-examples-rclcpp-minimal-timer, ros-dashing-examples-rclpy-executors, ros-dashing-examples-rclpy-minimal-action-client, ros-dashing-examples-rclpy-minimal-action-server, ros-dashing-examples-rclpy-minimal-client, ros-dashing-examples-rclpy-minimal-publisher, ros-dashing-examples-rclpy-minimal-service, ros-dashing-examples-rclpy-minimal-subscriber, ros-dashing-image-tools, ros-dashing-intra-process-demo, ros-dashing-joy, ros-dashing-lifecycle, ros-dashing-logging-demo, ros-dashing-pcl-conversions, ros-dashing-pendulum-control, ros-dashing-pendulum-msgs, ros-dashing-quality-of-service-demo-cpp, ros-dashing-quality-of-service-demo-py, ros-dashing-ros-base, ros-dashing-rqt-common-plugins, ros-dashing-rviz-default-plugins, ros-dashing-rviz2, ros-dashing-teleop-twist-joy, ros-dashing-teleop-twist-keyboard, ros-dashing-tlsf, ros-dashing-tlsf-cpp, ros-dashing-topic-monitor, ros-dashing-turtlesim, ros-dashing-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
