@@ -2,6 +2,19 @@
 Changelog for package desktop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.2 (2020-07-07)
+------------------
+* Add turtlesim to desktop (`#29 <https://github.com/ros2/variants/issues/29>`_)
+* Contributors: Dirk Thomas
+
+0.9.1 (2020-05-28)
+------------------
+
+0.9.0 (2020-05-11)
+------------------
+* Add multithreaded executor example to desktop (`#25 <https://github.com/ros2/variants/issues/25>`_)
+* Contributors: Mikael Arguedas
+
 0.8.4 (2019-12-10)
 ------------------
 * add rqt_common_plugins to desktop (`#18 <https://github.com/ros2/variants/issues/18>`_)
