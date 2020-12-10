@@ -2,18 +2,7 @@
 Changelog for package ros_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.9.2 (2020-07-07)
-------------------
-
-0.9.1 (2020-05-28)
-------------------
-* Add launch and launch_ros repos to ros_core variant (`#28 <https://github.com/ros2/variants/issues/28>`_)
-  This ensures that all of them are included in an installation of ros_core.
-* Remove ros2msg and ros2srv from ros_core (`#27 <https://github.com/ros2/variants/issues/27>`_)
-  These packages no longer exist.
-* Contributors: Jacob Perron
-
-0.9.0 (2020-05-11)
+0.8.5 (2020-12-10)
 ------------------
 
 0.8.4 (2019-12-10)
