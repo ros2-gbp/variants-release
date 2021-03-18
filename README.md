@@ -1,3 +1,29 @@
+## variants (rolling) - 0.9.3-1
+
+The packages in the `variants` repository were released into the `rolling` distro by running `/home/cottsay/.local/bin/bloom-release variants -r rolling` on `Thu, 18 Mar 2021 20:06:46 -0000`
+
+These packages were released:
+- `desktop`
+- `ros_base`
+- `ros_core`
+
+Version of package(s) in repository `variants`:
+
+- upstream repository: https://github.com/ros2/variants.git
+- release repository: https://github.com/ros2-gbp/variants-release.git
+- rosdistro version: `0.9.2-1`
+- old version: `0.9.2-1`
+- new version: `0.9.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.2`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## variants (eloquent) - 0.8.5-1
 
 The packages in the `variants` repository were released into the `eloquent` distro by running `/usr/bin/bloom-release --track eloquent -r eloquent variants --edit` on `Thu, 10 Dec 2020 21:13:47 -0000`
