@@ -1,1 +1,1 @@
-{"base": "f36bf81", "parent": "debian/rolling/ros_base", "previous": "b442a0e", "trim": "", "trimbase": ""}
+{"base": "41982bd", "parent": "debian/galactic/ros_base", "previous": "8c30b59", "trim": "", "trimbase": ""}
