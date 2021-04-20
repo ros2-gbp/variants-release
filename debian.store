@@ -1,1 +1,1 @@
-{"base": "eaec173", "parent": "debian/rolling/ros_core", "previous": "8a51391", "trim": "", "trimbase": ""}
+{"base": "fa802d0", "parent": "debian/galactic/ros_core", "previous": "3d83fc9", "trim": "", "trimbase": ""}
