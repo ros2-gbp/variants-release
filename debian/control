@@ -1,0 +1,12 @@
+Source: ros-galactic-ros-base
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-ros-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-geometry2, ros-galactic-kdl-parser, ros-galactic-robot-state-publisher, ros-galactic-ros-core, ros-galactic-rosbag2, ros-galactic-urdf, ros-galactic-ros-workspace
+Description: A package which extends 'ros_core' and includes other basic functionalities like tf2 and urdf.
