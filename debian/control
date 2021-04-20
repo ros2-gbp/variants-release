@@ -1,0 +1,12 @@
+Source: ros-galactic-desktop
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-action-tutorials-cpp, ros-galactic-action-tutorials-interfaces, ros-galactic-action-tutorials-py, ros-galactic-angles, ros-galactic-composition, ros-galactic-demo-nodes-cpp, ros-galactic-demo-nodes-cpp-native, ros-galactic-demo-nodes-py, ros-galactic-depthimage-to-laserscan, ros-galactic-dummy-map-server, ros-galactic-dummy-robot-bringup, ros-galactic-dummy-sensors, ros-galactic-examples-rclcpp-minimal-action-client, ros-galactic-examples-rclcpp-minimal-action-server, ros-galactic-examples-rclcpp-minimal-client, ros-galactic-examples-rclcpp-minimal-composition, ros-galactic-examples-rclcpp-minimal-publisher, ros-galactic-examples-rclcpp-minimal-service, ros-galactic-examples-rclcpp-minimal-subscriber, ros-galactic-examples-rclcpp-minimal-timer, ros-galactic-examples-rclcpp-multithreaded-executor, ros-galactic-examples-rclpy-executors, ros-galactic-examples-rclpy-minimal-action-client, ros-galactic-examples-rclpy-minimal-action-server, ros-galactic-examples-rclpy-minimal-client, ros-galactic-examples-rclpy-minimal-publisher, ros-galactic-examples-rclpy-minimal-service, ros-galactic-examples-rclpy-minimal-subscriber, ros-galactic-image-tools, ros-galactic-intra-process-demo, ros-galactic-joy, ros-galactic-lifecycle, ros-galactic-logging-demo, ros-galactic-pcl-conversions, ros-galactic-pendulum-control, ros-galactic-pendulum-msgs, ros-galactic-quality-of-service-demo-cpp, ros-galactic-quality-of-service-demo-py, ros-galactic-ros-base, ros-galactic-rqt-common-plugins, ros-galactic-rviz-default-plugins, ros-galactic-rviz2, ros-galactic-teleop-twist-joy, ros-galactic-teleop-twist-keyboard, ros-galactic-tlsf, ros-galactic-tlsf-cpp, ros-galactic-topic-monitor, ros-galactic-turtlesim, ros-galactic-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
