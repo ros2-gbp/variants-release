@@ -1,0 +1,12 @@
+Source: ros-galactic-ros-core
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-ros-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-ament-cmake, ros-galactic-ament-cmake-auto, ros-galactic-ament-cmake-gmock, ros-galactic-ament-cmake-gtest, ros-galactic-ament-cmake-pytest, ros-galactic-ament-cmake-ros, ros-galactic-ament-index-cpp, ros-galactic-ament-index-python, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-class-loader, ros-galactic-common-interfaces, ros-galactic-launch, ros-galactic-launch-ros, ros-galactic-launch-testing, ros-galactic-launch-testing-ament-cmake, ros-galactic-launch-testing-ros, ros-galactic-launch-xml, ros-galactic-launch-yaml, ros-galactic-pluginlib, ros-galactic-rcl-lifecycle, ros-galactic-rclcpp, ros-galactic-rclcpp-lifecycle, ros-galactic-rclpy, ros-galactic-ros-environment, ros-galactic-ros2cli-common-extensions, ros-galactic-ros2launch, ros-galactic-rosidl-default-generators, ros-galactic-rosidl-default-runtime, ros-galactic-sros2, ros-galactic-sros2-cmake, ros-galactic-ros-workspace
+Description: A package to aggregate the packages required to use publish / subscribe, services, generate messages and other core ROS concepts.
