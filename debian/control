@@ -1,0 +1,12 @@
+Source: ros-humble-desktop
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-action-tutorials-cpp, ros-humble-action-tutorials-interfaces, ros-humble-action-tutorials-py, ros-humble-angles, ros-humble-composition, ros-humble-demo-nodes-cpp, ros-humble-demo-nodes-cpp-native, ros-humble-demo-nodes-py, ros-humble-depthimage-to-laserscan, ros-humble-dummy-map-server, ros-humble-dummy-robot-bringup, ros-humble-dummy-sensors, ros-humble-examples-rclcpp-minimal-action-client, ros-humble-examples-rclcpp-minimal-action-server, ros-humble-examples-rclcpp-minimal-client, ros-humble-examples-rclcpp-minimal-composition, ros-humble-examples-rclcpp-minimal-publisher, ros-humble-examples-rclcpp-minimal-service, ros-humble-examples-rclcpp-minimal-subscriber, ros-humble-examples-rclcpp-minimal-timer, ros-humble-examples-rclcpp-multithreaded-executor, ros-humble-examples-rclpy-executors, ros-humble-examples-rclpy-minimal-action-client, ros-humble-examples-rclpy-minimal-action-server, ros-humble-examples-rclpy-minimal-client, ros-humble-examples-rclpy-minimal-publisher, ros-humble-examples-rclpy-minimal-service, ros-humble-examples-rclpy-minimal-subscriber, ros-humble-image-tools, ros-humble-intra-process-demo, ros-humble-joy, ros-humble-lifecycle, ros-humble-logging-demo, ros-humble-pcl-conversions, ros-humble-pendulum-control, ros-humble-pendulum-msgs, ros-humble-quality-of-service-demo-cpp, ros-humble-quality-of-service-demo-py, ros-humble-ros-base, ros-humble-rqt-common-plugins, ros-humble-rviz-default-plugins, ros-humble-rviz2, ros-humble-teleop-twist-joy, ros-humble-teleop-twist-keyboard, ros-humble-tlsf, ros-humble-tlsf-cpp, ros-humble-topic-monitor, ros-humble-turtlesim, ros-humble-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
