@@ -1,1 +1,1 @@
-{"base": "037b774", "parent": "debian/rolling/ros_core", "previous": "96351d6", "trim": "", "trimbase": ""}
+{"base": "a4f1b2c", "parent": "debian/humble/ros_core", "previous": "bb04a05", "trim": "", "trimbase": ""}
