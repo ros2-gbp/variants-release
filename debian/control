@@ -1,0 +1,12 @@
+Source: ros-humble-simulation
+Section: misc
+Priority: optional
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-simulation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ros-base, ros-humble-ros-ign-bridge, ros-humble-ros-ign-gazebo, ros-humble-ros-ign-image, ros-humble-ros-ign-interfaces, ros-humble-ros-workspace
+Description: A package which extends 'ros_base' and includes simulation packages.
