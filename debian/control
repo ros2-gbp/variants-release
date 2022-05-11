@@ -1,0 +1,12 @@
+Source: ros-humble-desktop-full
+Section: misc
+Priority: optional
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-desktop-full
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-desktop, ros-humble-perception, ros-humble-ros-ign-gazebo-demos, ros-humble-simulation, ros-humble-ros-workspace
+Description: Provides a &quot;batteries included&quot; experience to novice users.
