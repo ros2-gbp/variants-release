@@ -1,0 +1,12 @@
+Source: ros-iron-simulation
+Section: misc
+Priority: optional
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-simulation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ros-base, ros-iron-ros-ign-bridge, ros-iron-ros-ign-gazebo, ros-iron-ros-ign-image, ros-iron-ros-ign-interfaces, ros-iron-ros-workspace
+Description: A package which extends 'ros_base' and includes simulation packages.
