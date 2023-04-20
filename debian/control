@@ -1,0 +1,12 @@
+Source: ros-iron-perception
+Section: misc
+Priority: optional
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-perception
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-image-common, ros-iron-image-pipeline, ros-iron-image-transport-plugins, ros-iron-laser-filters, ros-iron-laser-geometry, ros-iron-perception-pcl, ros-iron-ros-base, ros-iron-vision-opencv, ros-iron-ros-workspace
+Description: A package which aggregates common perception packages.
