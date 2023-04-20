@@ -1,0 +1,12 @@
+Source: ros-iron-desktop
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-action-tutorials-cpp, ros-iron-action-tutorials-interfaces, ros-iron-action-tutorials-py, ros-iron-angles, ros-iron-composition, ros-iron-demo-nodes-cpp, ros-iron-demo-nodes-cpp-native, ros-iron-demo-nodes-py, ros-iron-depthimage-to-laserscan, ros-iron-dummy-map-server, ros-iron-dummy-robot-bringup, ros-iron-dummy-sensors, ros-iron-examples-rclcpp-minimal-action-client, ros-iron-examples-rclcpp-minimal-action-server, ros-iron-examples-rclcpp-minimal-client, ros-iron-examples-rclcpp-minimal-composition, ros-iron-examples-rclcpp-minimal-publisher, ros-iron-examples-rclcpp-minimal-service, ros-iron-examples-rclcpp-minimal-subscriber, ros-iron-examples-rclcpp-minimal-timer, ros-iron-examples-rclcpp-multithreaded-executor, ros-iron-examples-rclpy-executors, ros-iron-examples-rclpy-minimal-action-client, ros-iron-examples-rclpy-minimal-action-server, ros-iron-examples-rclpy-minimal-client, ros-iron-examples-rclpy-minimal-publisher, ros-iron-examples-rclpy-minimal-service, ros-iron-examples-rclpy-minimal-subscriber, ros-iron-image-tools, ros-iron-intra-process-demo, ros-iron-joy, ros-iron-lifecycle, ros-iron-logging-demo, ros-iron-pcl-conversions, ros-iron-pendulum-control, ros-iron-pendulum-msgs, ros-iron-quality-of-service-demo-cpp, ros-iron-quality-of-service-demo-py, ros-iron-ros-base, ros-iron-rqt-common-plugins, ros-iron-rviz-default-plugins, ros-iron-rviz2, ros-iron-teleop-twist-joy, ros-iron-teleop-twist-keyboard, ros-iron-tlsf, ros-iron-tlsf-cpp, ros-iron-topic-monitor, ros-iron-turtlesim, ros-iron-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
