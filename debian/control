@@ -1,0 +1,12 @@
+Source: ros-rolling-simulation
+Section: misc
+Priority: optional
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-simulation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-base-dev, ros-rolling-ros-ign-bridge, ros-rolling-ros-ign-gazebo, ros-rolling-ros-ign-image, ros-rolling-ros-ign-interfaces, ros-rolling-ros-workspace
+Description: A package which extends 'ros_base' and includes simulation packages.
