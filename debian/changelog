@@ -1,0 +1,8 @@
+ros-rolling-perception (0.10.0-3noble) noble; urgency=high
+
+  * Add desktop_full, perception, and simulation variants. (#34 <https://github.com/ros2/variants/issues/34>)
+  * Contributors: Louise Poubel
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 11 May 2022 00:00:00 -0000
+
+
