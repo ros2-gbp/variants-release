@@ -1,0 +1,12 @@
+Source: ros-rolling-ros-base
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-ros-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libkdl-parser-dev, librobot-state-publisher-dev, libtf2-bullet-dev, libtf2-dev, libtf2-eigen-dev, libtf2-geometry-msgs-dev, libtf2-kdl-dev, libtf2-msgs-dev, libtf2-ros-dev, libtf2-sensor-msgs-dev, liburdf-dev, python3-tf2, python3-tf2-geometry-msgs, python3-tf2-kdl, python3-tf2-msgs, python3-tf2-ros, python3-tf2-sensor-msgs, ros-core-dev, ros-robot-state-publisher, ros-rolling-rosbag2, ros-sensor-msgs, ros-tf2-msgs, tf2-tools, ros-rolling-ros-workspace
+Description: A package which extends 'ros_core' and includes other basic functionalities like tf2 and urdf.
