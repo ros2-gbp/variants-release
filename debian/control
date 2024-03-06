@@ -1,0 +1,12 @@
+Source: ros-rolling-ros-core
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-ros-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ament-cmake, ament-cmake-copyright, ament-cmake-cppcheck, ament-cmake-cpplint, ament-cmake-flake8, ament-cmake-googletest, ament-cmake-lint-cmake, ament-cmake-pep257, ament-cmake-pytest, ament-cmake-ros, ament-cmake-uncrustify, ament-cmake-xmllint, ament-lint, libament-index-cpp-dev, libclass-loader-dev, pluginlib-dev, python3-ament-index, ros-environment, ros-rolling-common-interfaces, ros-rolling-launch, ros-rolling-launch-ros, ros-rolling-launch-testing, ros-rolling-launch-testing-ament-cmake, ros-rolling-launch-testing-ros, ros-rolling-launch-xml, ros-rolling-launch-yaml, ros-rolling-rcl-lifecycle, ros-rolling-rclcpp, ros-rolling-rclcpp-action, ros-rolling-rclcpp-lifecycle, ros-rolling-rclpy, ros-rolling-ros2cli-common-extensions, ros-rolling-ros2launch, ros-rolling-rosidl-default-generators, ros-rolling-rosidl-default-runtime, ros-rolling-sros2, ros-rolling-sros2-cmake, ros-rolling-ros-workspace
+Description: A package to aggregate the packages required to use publish / subscribe, services, generate messages and other core ROS concepts.
