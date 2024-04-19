@@ -1,0 +1,12 @@
+Source: ros-jazzy-desktop
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-action-tutorials-cpp, ros-jazzy-action-tutorials-interfaces, ros-jazzy-action-tutorials-py, ros-jazzy-angles, ros-jazzy-composition, ros-jazzy-demo-nodes-cpp, ros-jazzy-demo-nodes-cpp-native, ros-jazzy-demo-nodes-py, ros-jazzy-depthimage-to-laserscan, ros-jazzy-dummy-map-server, ros-jazzy-dummy-robot-bringup, ros-jazzy-dummy-sensors, ros-jazzy-examples-rclcpp-minimal-action-client, ros-jazzy-examples-rclcpp-minimal-action-server, ros-jazzy-examples-rclcpp-minimal-client, ros-jazzy-examples-rclcpp-minimal-composition, ros-jazzy-examples-rclcpp-minimal-publisher, ros-jazzy-examples-rclcpp-minimal-service, ros-jazzy-examples-rclcpp-minimal-subscriber, ros-jazzy-examples-rclcpp-minimal-timer, ros-jazzy-examples-rclcpp-multithreaded-executor, ros-jazzy-examples-rclpy-executors, ros-jazzy-examples-rclpy-minimal-action-client, ros-jazzy-examples-rclpy-minimal-action-server, ros-jazzy-examples-rclpy-minimal-client, ros-jazzy-examples-rclpy-minimal-publisher, ros-jazzy-examples-rclpy-minimal-service, ros-jazzy-examples-rclpy-minimal-subscriber, ros-jazzy-image-tools, ros-jazzy-intra-process-demo, ros-jazzy-joy, ros-jazzy-lifecycle, ros-jazzy-logging-demo, ros-jazzy-pcl-conversions, ros-jazzy-pendulum-control, ros-jazzy-pendulum-msgs, ros-jazzy-quality-of-service-demo-cpp, ros-jazzy-quality-of-service-demo-py, ros-jazzy-ros-base, ros-jazzy-rqt-common-plugins, ros-jazzy-rviz-default-plugins, ros-jazzy-rviz2, ros-jazzy-teleop-twist-joy, ros-jazzy-teleop-twist-keyboard, ros-jazzy-tlsf, ros-jazzy-tlsf-cpp, ros-jazzy-topic-monitor, ros-jazzy-turtlesim, ros-jazzy-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
