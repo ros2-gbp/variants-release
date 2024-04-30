@@ -1,3 +1,32 @@
+## variants (rolling) - 0.11.0-1
+
+The packages in the `variants` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling variants` on `Tue, 30 Apr 2024 18:55:12 -0000`
+
+These packages were released:
+- `desktop`
+- `desktop_full`
+- `perception`
+- `ros_base`
+- `ros_core`
+- `simulation`
+
+Version of package(s) in repository `variants`:
+
+- upstream repository: https://github.com/ros2/variants.git
+- release repository: https://github.com/ros2-gbp/variants-release.git
+- rosdistro version: `0.10.0-3`
+- old version: `0.10.0-3`
+- new version: `0.11.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.23.0`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## variants (humble) - 0.10.0-1
 
 The packages in the `variants` repository were released into the `humble` distro by running `/home/steven/.local/bin/bloom-release -r humble variants` on `Wed, 11 May 2022 18:48:41 -0000`
