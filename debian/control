@@ -1,0 +1,12 @@
+Source: ros-jazzy-simulation
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-simulation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ros-base, ros-jazzy-ros-gz-bridge, ros-jazzy-ros-gz-image, ros-jazzy-ros-gz-interfaces, ros-jazzy-ros-gz-sim, ros-jazzy-ros-workspace
+Description: A package which extends 'ros_base' and includes simulation packages.
