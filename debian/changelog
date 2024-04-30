@@ -1,0 +1,15 @@
+ros-jazzy-perception (0.11.0-1noble) noble; urgency=high
+
+  * [master] Update maintainers - 2022-11-07 (#38 <https://github.com/ros2/variants/issues/38>)
+  * Contributors: Audrow Nash
+
+ -- Geoffrey Biggs <geoff@openrobotics.org>  Tue, 30 Apr 2024 00:00:00 -0000
+
+ros-jazzy-perception (0.10.0-1noble) noble; urgency=high
+
+  * Add desktop_full, perception, and simulation variants. (#34 <https://github.com/ros2/variants/issues/34>)
+  * Contributors: Louise Poubel
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 11 May 2022 00:00:00 -0000
+
+
