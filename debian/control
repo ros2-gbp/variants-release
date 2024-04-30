@@ -1,0 +1,12 @@
+Source: ros-rolling-desktop-full
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-desktop-full
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-desktop, ros-rolling-perception, ros-rolling-ros-gz-sim-demos, ros-rolling-simulation, ros-rolling-ros-workspace
+Description: Provides a 'batteries included' experience to novice users.
