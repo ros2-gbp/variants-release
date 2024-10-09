@@ -2,6 +2,9 @@
 Changelog for package ros_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.12.0 (2024-10-09)
+-------------------
+
 0.11.0 (2024-04-30)
 -------------------
 * [master] Update maintainers - 2022-11-07 (`#38 <https://github.com/ros2/variants/issues/38>`_)
