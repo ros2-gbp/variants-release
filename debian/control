@@ -1,0 +1,12 @@
+Source: ros-kilted-desktop
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-action-tutorials-cpp, ros-kilted-action-tutorials-py, ros-kilted-angles, ros-kilted-composition, ros-kilted-demo-nodes-cpp, ros-kilted-demo-nodes-cpp-native, ros-kilted-demo-nodes-py, ros-kilted-depthimage-to-laserscan, ros-kilted-dummy-map-server, ros-kilted-dummy-robot-bringup, ros-kilted-dummy-sensors, ros-kilted-examples-rclcpp-minimal-action-client, ros-kilted-examples-rclcpp-minimal-action-server, ros-kilted-examples-rclcpp-minimal-client, ros-kilted-examples-rclcpp-minimal-composition, ros-kilted-examples-rclcpp-minimal-publisher, ros-kilted-examples-rclcpp-minimal-service, ros-kilted-examples-rclcpp-minimal-subscriber, ros-kilted-examples-rclcpp-minimal-timer, ros-kilted-examples-rclcpp-multithreaded-executor, ros-kilted-examples-rclpy-executors, ros-kilted-examples-rclpy-minimal-action-client, ros-kilted-examples-rclpy-minimal-action-server, ros-kilted-examples-rclpy-minimal-client, ros-kilted-examples-rclpy-minimal-publisher, ros-kilted-examples-rclpy-minimal-service, ros-kilted-examples-rclpy-minimal-subscriber, ros-kilted-image-tools, ros-kilted-intra-process-demo, ros-kilted-joy, ros-kilted-lifecycle, ros-kilted-logging-demo, ros-kilted-pcl-conversions, ros-kilted-pendulum-control, ros-kilted-pendulum-msgs, ros-kilted-quality-of-service-demo-cpp, ros-kilted-quality-of-service-demo-py, ros-kilted-ros-base, ros-kilted-rqt-common-plugins, ros-kilted-rviz-default-plugins, ros-kilted-rviz2, ros-kilted-teleop-twist-joy, ros-kilted-teleop-twist-keyboard, ros-kilted-tlsf, ros-kilted-tlsf-cpp, ros-kilted-topic-monitor, ros-kilted-turtlesim, ros-kilted-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
