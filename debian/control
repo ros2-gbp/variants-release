@@ -1,0 +1,12 @@
+Source: ros-kilted-ros-base
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ros-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-geometry2, ros-kilted-kdl-parser, ros-kilted-robot-state-publisher, ros-kilted-ros-core, ros-kilted-rosbag2, ros-kilted-urdf, ros-kilted-ros-workspace
+Description: A package which extends 'ros_core' and includes other basic functionalities like tf2 and urdf.
