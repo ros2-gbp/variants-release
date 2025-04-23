@@ -1,0 +1,12 @@
+Source: ros-kilted-ros-core
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ros-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ament-cmake, ros-kilted-ament-cmake-auto, ros-kilted-ament-cmake-gmock, ros-kilted-ament-cmake-gtest, ros-kilted-ament-cmake-pytest, ros-kilted-ament-cmake-ros, ros-kilted-ament-index-cpp, ros-kilted-ament-index-python, ros-kilted-ament-lint-auto, ros-kilted-ament-lint-common, ros-kilted-class-loader, ros-kilted-common-interfaces, ros-kilted-launch, ros-kilted-launch-ros, ros-kilted-launch-testing, ros-kilted-launch-testing-ament-cmake, ros-kilted-launch-testing-ros, ros-kilted-launch-xml, ros-kilted-launch-yaml, ros-kilted-pluginlib, ros-kilted-rcl-lifecycle, ros-kilted-rclcpp, ros-kilted-rclcpp-action, ros-kilted-rclcpp-lifecycle, ros-kilted-rclpy, ros-kilted-ros-environment, ros-kilted-ros2cli-common-extensions, ros-kilted-ros2launch, ros-kilted-rosidl-default-generators, ros-kilted-rosidl-default-runtime, ros-kilted-sros2, ros-kilted-sros2-cmake, ros-kilted-ros-workspace
+Description: A package to aggregate the packages required to use publish / subscribe, services, generate messages and other core ROS concepts.
