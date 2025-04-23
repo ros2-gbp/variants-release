@@ -1,0 +1,12 @@
+Source: ros-kilted-perception
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-perception
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-image-common, ros-kilted-image-pipeline, ros-kilted-image-transport-plugins, ros-kilted-laser-filters, ros-kilted-laser-geometry, ros-kilted-perception-pcl, ros-kilted-ros-base, ros-kilted-vision-opencv, ros-kilted-ros-workspace
+Description: A package which aggregates common perception packages.
