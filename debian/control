@@ -1,0 +1,12 @@
+Source: ros-lyrical-simulation
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/simulation/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-simulation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ros-base, ros-lyrical-ros-gz-bridge, ros-lyrical-ros-gz-image, ros-lyrical-ros-gz-interfaces, ros-lyrical-ros-gz-sim, ros-lyrical-ros-workspace
+Description: A package which extends 'ros_base' and includes simulation packages.
