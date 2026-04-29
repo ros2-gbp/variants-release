@@ -1,0 +1,12 @@
+Source: ros-lyrical-desktop-full
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/desktop_full/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-desktop-full
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-desktop, ros-lyrical-perception, ros-lyrical-ros-gz-sim-demos, ros-lyrical-simulation, ros-lyrical-ros-workspace
+Description: Provides a 'batteries included' experience to novice users.
