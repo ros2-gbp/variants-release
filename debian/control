@@ -1,0 +1,12 @@
+Source: ros-lyrical-ros-base
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ros_base/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ros-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry2, ros-lyrical-kdl-parser, ros-lyrical-robot-state-publisher, ros-lyrical-ros-core, ros-lyrical-rosbag2, ros-lyrical-urdf, ros-lyrical-ros-workspace
+Description: A package which extends 'ros_core' and includes other basic functionalities like tf2 and urdf.
