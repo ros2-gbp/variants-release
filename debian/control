@@ -1,0 +1,12 @@
+Source: ros-lyrical-perception
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/perception/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-perception
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-image-common, ros-lyrical-image-pipeline, ros-lyrical-image-transport-plugins, ros-lyrical-laser-filters, ros-lyrical-laser-geometry, ros-lyrical-perception-pcl, ros-lyrical-ros-base, ros-lyrical-vision-opencv, ros-lyrical-ros-workspace
+Description: A package which aggregates common perception packages.
