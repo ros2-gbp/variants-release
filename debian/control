@@ -1,0 +1,12 @@
+Source: ros-lyrical-desktop
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/desktop/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-action-tutorials-cpp, ros-lyrical-action-tutorials-py, ros-lyrical-angles, ros-lyrical-composition, ros-lyrical-demo-nodes-cpp, ros-lyrical-demo-nodes-cpp-native, ros-lyrical-demo-nodes-py, ros-lyrical-depthimage-to-laserscan, ros-lyrical-dummy-map-server, ros-lyrical-dummy-robot-bringup, ros-lyrical-dummy-sensors, ros-lyrical-examples-rclcpp-minimal-action-client, ros-lyrical-examples-rclcpp-minimal-action-server, ros-lyrical-examples-rclcpp-minimal-client, ros-lyrical-examples-rclcpp-minimal-composition, ros-lyrical-examples-rclcpp-minimal-publisher, ros-lyrical-examples-rclcpp-minimal-service, ros-lyrical-examples-rclcpp-minimal-subscriber, ros-lyrical-examples-rclcpp-minimal-timer, ros-lyrical-examples-rclcpp-multithreaded-executor, ros-lyrical-examples-rclpy-executors, ros-lyrical-examples-rclpy-minimal-action-client, ros-lyrical-examples-rclpy-minimal-action-server, ros-lyrical-examples-rclpy-minimal-client, ros-lyrical-examples-rclpy-minimal-publisher, ros-lyrical-examples-rclpy-minimal-service, ros-lyrical-examples-rclpy-minimal-subscriber, ros-lyrical-image-tools, ros-lyrical-intra-process-demo, ros-lyrical-joy, ros-lyrical-lifecycle, ros-lyrical-logging-demo, ros-lyrical-pcl-conversions, ros-lyrical-pendulum-control, ros-lyrical-pendulum-msgs, ros-lyrical-quality-of-service-demo-cpp, ros-lyrical-quality-of-service-demo-py, ros-lyrical-ros-base, ros-lyrical-rqt-common-plugins, ros-lyrical-rviz-default-plugins, ros-lyrical-rviz2, ros-lyrical-teleop-twist-joy, ros-lyrical-teleop-twist-keyboard, ros-lyrical-tlsf, ros-lyrical-tlsf-cpp, ros-lyrical-topic-monitor, ros-lyrical-turtlesim, ros-lyrical-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
