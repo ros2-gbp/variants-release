@@ -1,0 +1,12 @@
+Source: ros-lyrical-ros-core
+Section: misc
+Priority: optional
+Maintainer: Geoffrey Biggs <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/ros_core/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-ros-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-auto, ros-lyrical-ament-cmake-gmock, ros-lyrical-ament-cmake-gtest, ros-lyrical-ament-cmake-pytest, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-index-cpp, ros-lyrical-ament-index-python, ros-lyrical-ament-lint-auto, ros-lyrical-ament-lint-common, ros-lyrical-class-loader, ros-lyrical-common-interfaces, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-launch-testing, ros-lyrical-launch-testing-ament-cmake, ros-lyrical-launch-testing-ros, ros-lyrical-launch-xml, ros-lyrical-launch-yaml, ros-lyrical-pluginlib, ros-lyrical-rcl-lifecycle, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rclcpp-lifecycle, ros-lyrical-rclpy, ros-lyrical-ros-environment, ros-lyrical-ros2cli-common-extensions, ros-lyrical-ros2launch, ros-lyrical-rosidl-default-generators, ros-lyrical-rosidl-default-runtime, ros-lyrical-sros2, ros-lyrical-sros2-cmake, ros-lyrical-ros-workspace
+Description: A package to aggregate the packages required to use publish / subscribe, services, generate messages and other core ROS concepts.
